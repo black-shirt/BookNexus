@@ -1,8 +1,14 @@
 # BookNexus
-BookNexus is a comprehensive Library Management System that allows users to manage book inventories and handle transactions efficiently. It has 2 types of users: 
-1) Library User
-2) Admin
+BookNexus is a comprehensive Library Management System that allows users to efficiently manage book inventories and transactions. It has two types of users:
 
-Library user can issue and purchase a book, can also search a book and can also get recommendation from previous issued books. User can also view brief decription about the book like author name, genre of the book, published year, publisher name, ratings etc.
-The admin can view the list of all the books and their details.
-The data is stored in a AWS DynamoDB database. User authorization and authentication are handled through Firebase. The mobile app is made using Flutter.
+Library User:
+
+Can issue and purchase books.
+Can search for books and receive recommendations based on previously issued books.
+Can view brief descriptions of books, including author names, genres, publication years, publisher names, ratings, etc.
+Admin:
+
+Can view a list of all books and their details.
+The text data is stored in an AWS DynamoDB database. User authorization and authentication are handled through Firebase. The mobile app is developed using Flutter.
+The REST APIs are built using AWS API Gateway.
+The image data is stored on AWS S3.
